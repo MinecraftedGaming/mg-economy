@@ -54,6 +54,78 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "BalanceProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/BalanceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BalanceCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/command/BalanceCommandCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "PayProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pay_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/PayProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PayCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pay_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/command/PayCommandCommand.java"
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [
@@ -89,6 +161,10 @@
       },
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Commands",
         "children": []
       }
     ]
