@@ -1,0 +1,112 @@
+{
+  "mod_elements": [
+    {
+      "name": "DollerItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doller_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/item/DollerItemItem.java",
+          "src/main/resources/assets/mg_economy/models/item/doller_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FiveDollerItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_doller_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/item/FiveDollerItemItem.java",
+          "src/main/resources/assets/mg_economy/models/item/five_doller_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TenDollerItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ten_doller_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mg_economy/models/item/ten_doller_item.json",
+          "src/main/java/net/mcreator/mgeconomy/item/TenDollerItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Money",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mg_economy/advancements/money.json"
+        ]
+      },
+      "path": "~/Advancements"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "PlayerBalance",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.mg_economy.five_doller_item": "Five Dollers",
+      "item.mg_economy.ten_doller_item": "Ten Dollers",
+      "advancements.money.title": "Money",
+      "advancements.money.descr": "Get money",
+      "item.mg_economy.doller_item": "Doller"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mg_economy",
+    "modName": "MG Economy",
+    "version": "1.0.1",
+    "description": "Basic server economy mod",
+    "author": "Minecrafted Gaming",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.mgeconomy"
+  },
+  "mcreatorVersion": 202400340615
+}
