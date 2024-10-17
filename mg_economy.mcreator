@@ -126,6 +126,41 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "DollerDropCancelProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "doller_drop_cancel_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/DollerDropCancelProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
