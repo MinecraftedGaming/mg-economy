@@ -212,6 +212,57 @@
         ]
       },
       "path": "~/Commands"
+    },
+    {
+      "name": "ServerConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/configuration/ServerConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "ClientConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "client_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/configuration/ClientConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "OneDollerDepositProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_doller_deposit_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/OneDollerDepositProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [

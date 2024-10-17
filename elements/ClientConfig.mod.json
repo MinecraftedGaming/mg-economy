@@ -1,0 +1,32 @@
+{
+  "_fv": 69,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Animations",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Show an animation when depisiting money",
+            "vardisplay": "Show Money Animation",
+            "varname": "ShowMoneyAnimation",
+            "enablecomment": true,
+            "stringlist": []
+          }
+        ]
+      }
+    ],
+    "file": "MGEClientConfig",
+    "configType": 2
+  }
+}
