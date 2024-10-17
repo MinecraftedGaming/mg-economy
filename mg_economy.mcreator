@@ -161,6 +161,57 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "AdminHelpProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_help_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/AdminHelpProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AdminOptionsListProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_options_list_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/procedures/AdminOptionsListProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MGECommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mge_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mgeconomy/command/MGECommandCommand.java"
+        ]
+      },
+      "path": "~/Commands"
     }
   ],
   "variable_elements": [

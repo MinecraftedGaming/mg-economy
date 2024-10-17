@@ -1,0 +1,10 @@
+{
+  "_fv": 69,
+  "_type": "command",
+  "definition": {
+    "commandName": "MGE",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"451\" y=\"161\"><next><block type=\"literal\"><field name=\"name\">Help</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">AdminHelpProcedure</field></block></statement><next><block type=\"literal\"><field name=\"name\">Options</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">List</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">AdminOptionsListProcedure</field></block></statement></block></statement></block></next></block></next></block></xml>"
+  }
+}
